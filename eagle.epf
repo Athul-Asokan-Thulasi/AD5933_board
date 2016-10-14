@@ -366,6 +366,7 @@ UsedLibrary="C:/EAGLE-7.7.0/lbr/ltspice/lt-spice-simulation.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/ltspice/lt-supply.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/ltspice/rload.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/ltspice/sym.lbr"
+UsedLibrary="C:/EAGLE-7.7.0/lbr/E14_Arduino_revC.lbr"
 
 [Win_1]
 Type="Control Panel"
