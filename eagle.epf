@@ -20,6 +20,7 @@ UsedLibrary="C:/EAGLE-7.7.0/lbr/74xx-us.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/751xx.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/ADI Batch_1.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/ADI Batch_2.lbr"
+UsedLibrary="C:/EAGLE-7.7.0/lbr/E14_Arduino_revC.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/IQD-Frequency-Products.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/LTC_Batch_1.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/advanced-test-technologies.lbr"
@@ -366,12 +367,11 @@ UsedLibrary="C:/EAGLE-7.7.0/lbr/ltspice/lt-spice-simulation.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/ltspice/lt-supply.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/ltspice/rload.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/ltspice/sym.lbr"
-UsedLibrary="C:/EAGLE-7.7.0/lbr/E14_Arduino_revC.lbr"
 
 [Win_1]
 Type="Control Panel"
 Loc="0 0 1679 986"
-State=1
+State=2
 Number=0
 
 [Desktop]
