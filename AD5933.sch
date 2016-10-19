@@ -11106,7 +11106,7 @@ at 30/07/2012 10:08:22</description>
 <classes>
 <class number="0" name="default" width="0" drill="0.3048">
 </class>
-<class number="1" name="power 5v" width="0.762" drill="0.6096">
+<class number="1" name="power 5v" width="0.508" drill="0.6096">
 </class>
 </classes>
 <parts>
@@ -11252,6 +11252,8 @@ at 30/07/2012 10:08:22</description>
 <part name="GND31" library="supply1" deviceset="AGND" device=""/>
 <part name="GND36" library="supply1" deviceset="AGND" device=""/>
 <part name="GND37" library="supply1" deviceset="AGND" device=""/>
+<part name="GND38" library="supply1" deviceset="AGND" device=""/>
+<part name="GND39" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11367,6 +11369,8 @@ at 30/07/2012 10:08:22</description>
 <instance part="GND31" gate="VR1" x="198.12" y="55.88"/>
 <instance part="GND36" gate="VR1" x="309.88" y="43.18"/>
 <instance part="GND37" gate="VR1" x="320.04" y="43.18"/>
+<instance part="GND38" gate="VR1" x="111.76" y="0"/>
+<instance part="GND39" gate="1" x="124.46" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -12257,7 +12261,7 @@ at 30/07/2012 10:08:22</description>
 <wire x1="187.96" y1="106.68" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="U7_INB-" class="0">
+<net name="U7_INA-" class="0">
 <segment>
 <pinref part="U5" gate="A" pin="D"/>
 <wire x1="261.62" y1="43.18" x2="251.46" y2="43.18" width="0.1524" layer="91"/>
@@ -12298,6 +12302,16 @@ at 30/07/2012 10:08:22</description>
 <pinref part="U5" gate="A" pin="S3"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="33.02" x2="246.38" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="STAR" class="1">
+<segment>
+<pinref part="GND38" gate="VR1" pin="AGND"/>
+<wire x1="111.76" y1="5.08" x2="111.76" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="7.62" x2="124.46" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="GND39" gate="1" pin="GND"/>
+<wire x1="124.46" y1="2.54" x2="124.46" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="5.08" x2="111.76" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
