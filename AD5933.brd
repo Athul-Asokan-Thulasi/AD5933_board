@@ -18,18 +18,18 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -2264,7 +2264,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="49.53" y="-0.635" size="1.27" layer="27"/>
 </element>
 <element name="APWR" library="led" package="CHIP-LED0805" value="GREEN" x="10.16" y="27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.684" y="26.924" size="1.016" layer="25" rot="R180"/>
+<attribute name="NAME" x="11.684" y="26.67" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="11.43" y="30.48" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C1" library="rcl" package="C0805" value="1u" x="44.45" y="26.67" smashed="yes">
@@ -2300,7 +2300,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="41.91" y="8.89" size="1.27" layer="27"/>
 </element>
 <element name="C17" library="rcl" package="C0805" value="0.1u" x="67.31" y="6.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="67.056" y="4.064" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="67.056" y="4.064" size="0.762" layer="25" rot="R270"/>
 <attribute name="VALUE" x="64.77" y="7.62" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C18" library="rcl" package="C0805" value="0.1u" x="43.18" y="15.24" smashed="yes">
@@ -2308,7 +2308,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="41.91" y="12.7" size="1.27" layer="27"/>
 </element>
 <element name="C19" library="rcl" package="C0805" value="10u" x="64.77" y="6.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="64.897" y="4.064" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="64.897" y="4.064" size="0.762" layer="25" rot="R270"/>
 <attribute name="VALUE" x="62.23" y="7.62" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C2" library="rcl" package="C0805" value="0.1u" x="22.86" y="31.75" smashed="yes">
@@ -2316,7 +2316,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="21.59" y="29.21" size="1.27" layer="27"/>
 </element>
 <element name="C20" library="rcl" package="C0805" value="0.1u" x="71.12" y="49.53" smashed="yes">
-<attribute name="NAME" x="67.31" y="49.276" size="0.762" layer="25"/>
+<attribute name="NAME" x="67.056" y="49.403" size="0.762" layer="25"/>
 <attribute name="VALUE" x="69.85" y="46.99" size="1.27" layer="27"/>
 </element>
 <element name="C21" library="rcl" package="C0805" value="0.1u" x="76.2" y="24.13" smashed="yes">
@@ -2392,32 +2392,35 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="11.43" y="34.29" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="IOH" library="pinhead" package="1X10" value="10" x="30.227503125" y="50.790378125" locked="yes" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.987703125" y="48.961578125" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="36.780703125" y="48.580578125" size="1.016" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="42.927503125" y="53.965378125" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="IOL" library="pinhead" package="1X08" value="8" x="54.61" y="50.8" locked="yes" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.5762" y="48.8442" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="63.0682" y="48.4632" size="1.016" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="64.77" y="53.975" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="Z" library="pinhead" package="1X02" value="2" x="76.2" y="20.32" rot="R180"/>
+<element name="Z" library="pinhead" package="1X02" value="2" x="76.2" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="80.7212" y="21.1582" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="78.74" y="23.495" size="1.27" layer="27" rot="R180"/>
+</element>
 <element name="JP2" library="jumper" package="JP2" value="3" x="39.37" y="33.02" smashed="yes">
-<attribute name="NAME" x="35.814" y="34.671" size="1.016" layer="25" ratio="10"/>
+<attribute name="NAME" x="36.703" y="35.433" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="35.814" y="28.702" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="JP3" library="jumper" package="JP2" value="3" x="39.37" y="39.37" smashed="yes">
-<attribute name="NAME" x="35.814" y="41.021" size="1.016" layer="25" ratio="10"/>
+<attribute name="NAME" x="37.592" y="41.529" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="35.814" y="35.052" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="PWR_SEL" library="jumper" package="JP2" value="3" x="10.16" y="21.59" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.938" y="24.257" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="7.112" y="24.892" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="5.842" y="25.146" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="JP5" library="jumper" package="JP2" value="3" x="57.15" y="11.43" smashed="yes" rot="R270">
-<attribute name="NAME" x="59.055" y="14.224" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="59.436" y="14.351" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="52.832" y="14.986" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="JP6" library="jumper" package="JP2" value="3" x="50.8" y="11.43" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.705" y="14.097" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="53.213" y="14.351" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="46.482" y="14.986" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="POWER" library="pinhead" package="1X08" value="8" x="36.83" y="2.54" locked="yes" smashed="yes">
@@ -2497,15 +2500,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="12.7" y="36.83" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R7" library="rcl" package="M0805" value="2.2K" x="66.04" y="46.99" smashed="yes">
-<attribute name="NAME" x="64.897" y="48.133" size="0.762" layer="25"/>
+<attribute name="NAME" x="65.532" y="48.514" size="0.762" layer="25"/>
 <attribute name="VALUE" x="64.77" y="44.45" size="1.27" layer="27"/>
 </element>
 <element name="R8" library="rcl" package="M0805" value="2.2K" x="71.12" y="6.35" smashed="yes" rot="R180">
-<attribute name="NAME" x="71.501" y="8.636" size="1.016" layer="25" rot="R180"/>
+<attribute name="NAME" x="71.628" y="8.636" size="0.762" layer="25" rot="R180"/>
 <attribute name="VALUE" x="72.39" y="8.89" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R9" library="rcl" package="M0805" value="2.2K" x="31.75" y="39.37" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.02" y="38.1" size="0.762" layer="25" rot="R180"/>
+<attribute name="NAME" x="31.75" y="37.973" size="0.762" layer="25" rot="R180"/>
 <attribute name="VALUE" x="33.02" y="41.91" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U1" library="ADI Batch_1" package="SOP65P640X120-14N" value="ADG1604BRUZ" x="60.96" y="27.94" smashed="yes" rot="R270">
@@ -2568,7 +2571,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="19M0974" x="52.07" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="9994343" x="52.07" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="SOIC-8" x="52.07" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="47.4726" y="32.766" size="1.27" layer="25" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="45.5676" y="32.766" size="1.27" layer="25" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="48.6156" y="24.765" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="U5" library="ADI Batch_1" package="SOP65P640X120-14N" value="ADG1604BRUZ" x="74.93" y="31.75" smashed="yes" rot="R270">
@@ -2586,7 +2589,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="19M0974" x="35.56" y="13.97" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="9994343" x="35.56" y="13.97" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="SOIC-8" x="35.56" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="29.6926" y="16.002" size="1.27" layer="25" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="29.1846" y="16.764" size="1.27" layer="25" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="32.1056" y="8.255" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="U8" library="LTC_Batch_1" package="SOP65P490X110-8N" value="LTC6904MPMS8TRPBF" x="21.59" y="38.1" smashed="yes" rot="R270">
@@ -2604,7 +2607,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="59K2583" x="16.51" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1424477" x="16.51" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="SOIC-8" x="16.51" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="19.9644" y="21.209" size="1.27" layer="25" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="15.1384" y="19.431" size="1.27" layer="25" ratio="10" rot="SR180"/>
 <attribute name="VALUE" x="19.9644" y="28.575" size="2.0828" layer="27" ratio="10" rot="SR180"/>
 </element>
 <element name="X1" library="powersupply" package="DC-21MM" value="DC21MMX" x="5.08" y="9.525" locked="yes" smashed="yes" rot="R90">
