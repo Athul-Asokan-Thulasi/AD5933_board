@@ -11106,7 +11106,7 @@ at 30/07/2012 10:08:22</description>
 <classes>
 <class number="0" name="default" width="0" drill="0.3048">
 </class>
-<class number="1" name="power 5v" width="0.508" drill="0.6096">
+<class number="1" name="power 5v" width="0.4064" drill="0.6096">
 </class>
 </classes>
 <parts>
@@ -12603,16 +12603,6 @@ at 30/07/2012 10:08:22</description>
 <pinref part="X1" gate="G$1" pin="3"/>
 </segment>
 </net>
-</nets>
-</sheet>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
 </nets>
 </sheet>
 </sheets>
