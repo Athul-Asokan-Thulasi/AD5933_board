@@ -8120,6 +8120,7 @@ at 31/07/2012 09:37:13</description>
 <text x="-3.4544" y="-4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="SOP65P640X120-16N">
+<description>Increased the pad lengths to match the actual IC</description>
 <smd name="1" x="-2.8194" y="2.286" dx="1.4732" dy="0.3556" layer="1"/>
 <smd name="2" x="-2.8194" y="1.6256" dx="1.4732" dy="0.3556" layer="1"/>
 <smd name="3" x="-2.8194" y="0.9652" dx="1.4732" dy="0.3556" layer="1"/>
@@ -8217,6 +8218,22 @@ at 31/07/2012 09:37:13</description>
 <text x="-3.6576" y="2.4892" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-3.4544" y="3.175" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-5.08" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<smd name="P$1" x="3.556" y="2.286" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$2" x="3.556" y="1.6256" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$3" x="3.556" y="0.9652" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$4" x="3.556" y="0.3302" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$5" x="3.556" y="-0.3302" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$6" x="3.556" y="-0.9652" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$7" x="3.556" y="-1.6256" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$8" x="3.556" y="-2.286" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$9" x="-3.556" y="-2.286" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$10" x="-3.556" y="-1.6256" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$11" x="-3.556" y="-0.9652" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$12" x="-3.556" y="-0.3302" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$13" x="-3.556" y="0.3302" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$14" x="-3.556" y="0.9652" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$15" x="-3.556" y="1.6256" dx="0.7112" dy="0.3556" layer="1"/>
+<smd name="P$16" x="-3.556" y="2.286" dx="0.7112" dy="0.3556" layer="1"/>
 </package>
 <package name="SOIC127P600X175-8N">
 <smd name="1" x="-2.4638" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
@@ -12843,6 +12860,16 @@ at 30/07/2012 10:08:22</description>
 <pinref part="X1" gate="G$1" pin="3"/>
 </segment>
 </net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>
