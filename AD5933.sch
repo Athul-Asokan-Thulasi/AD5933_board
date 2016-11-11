@@ -11586,15 +11586,17 @@ at 30/07/2012 10:08:22</description>
 <wire x1="157.48" y1="55.88" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="U4_INA-" class="0">
+<net name="U4_INA++" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="38.1" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U4" gate="A" pin="-IN_A"/>
-<wire x1="99.06" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="35.56" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="38.1" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
-<junction x="99.06" y="38.1"/>
+<wire x1="99.06" y1="45.72" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="45.72" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
+<junction x="99.06" y="45.72"/>
+<wire x1="116.84" y1="45.72" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="+IN_A"/>
+<wire x1="116.84" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AGND" class="1">
@@ -12052,14 +12054,15 @@ at 30/07/2012 10:08:22</description>
 <label x="-10.16" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="U4_INA+" class="0">
+<net name="U4_INA--" class="0">
 <segment>
-<pinref part="U4" gate="A" pin="+IN_A"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="83.82" x2="111.76" y2="43.18" width="0.1524" layer="91"/>
-<junction x="111.76" y="43.18"/>
 <pinref part="JP2" gate="1" pin="2"/>
+<wire x1="111.76" y1="43.18" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+<junction x="111.76" y="43.18"/>
+<pinref part="U4" gate="A" pin="-IN_A"/>
+<wire x1="111.76" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ZH" class="0">
